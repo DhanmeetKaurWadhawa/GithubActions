@@ -4,7 +4,7 @@ inputs:
   person:
     description: greeting message
     required: true
-    default: "value"
+    default: 'Dhan'
 runs:
   using: node16
   main: src/index.js
