@@ -1,2 +1,2 @@
-const person=process.env.INPUT_PERSON;
+const person=process.env.INPUT_person;
 console.log('Hello ${person} from custom js actions');
