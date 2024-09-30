@@ -11,3 +11,5 @@ jobs:
         with:
           node-version: 16
       - uses: ./
+        with: 
+            person: 'Dhanmeet'
