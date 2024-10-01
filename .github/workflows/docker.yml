@@ -13,4 +13,4 @@ jobs:
       uses: ./  # Use the current repository
       with:
         image: 'alpine'
-        args: 'echo Hello, World!'
+        args: echo 'Hello, World!'
