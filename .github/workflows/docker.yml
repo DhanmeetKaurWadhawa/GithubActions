@@ -10,7 +10,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Run My Docker Action
-      uses: ./actions.yml  # Use the current repository
+      uses: ./action.yml  # Use the current repository
       with:
         image: 'alpine'
         args: 'echo Hello, World!'
